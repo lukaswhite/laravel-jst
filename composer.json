@@ -1,0 +1,27 @@
+{
+    "name": "lukaswhite/jst",
+    "description": "Generate JST templates (for Backbone apps, for example) from within Laravel.",
+    "authors": [
+        {
+            "name": "Lukas White",
+            "email": "hello@lukaswhite.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.x",
+        "illuminate/config": "4.1.x",
+        "illuminate/console": "4.1.x",           
+        "illuminate/filesystem": "4.0.x" 
+        "jasonlewis/resource-watcher": "1.0.*"    
+    },
+    "autoload": {
+        "psr-0": {
+            "Lukaswhite\\Jst": "src/"
+        },
+        "files": [
+            "src/Lukaswhite/globals.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
