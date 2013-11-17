@@ -28,7 +28,7 @@ One alternative is to put more complex templates into separate HTML files:
 
 Each time you want to render a template, you can load in the template via AJAX.  Great for development - pretty atrocious for performance, as it'll fire off untold numbers of HTTP requests.
 
-[Using JST](http://ricostacruz.com/backbone-patterns/#jst_templates) allows you to develop templates in this way - i.e. separate files, organised into a hierarchy - but "collapse" them into variables which are available via a single JS file (which can of course be incoporated into a larger Javascript file using, for example, the RequireJS optimiser or Google Closure Compiler).
+[Using JST](http://ricostacruz.com/backbone-patterns/#jst_templates) allows you to develop templates in this way - i.e. separate files, organised into a hierarchy - but "collapse" them into variables which are available via a single JS file (which can of course be incorporated into a larger Javascript file using, for example, the RequireJS optimiser or Google Closure Compiler).
 
 This involves a file like this:
 

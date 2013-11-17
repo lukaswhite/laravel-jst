@@ -12,7 +12,7 @@
         "illuminate/support": "4.1.x",
         "illuminate/config": "4.1.x",
         "illuminate/console": "4.1.x",           
-        "illuminate/filesystem": "4.0.x" 
+        "illuminate/filesystem": "4.0.x", 
         "jasonlewis/resource-watcher": "1.0.*"    
     },
     "autoload": {
