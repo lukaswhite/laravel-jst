@@ -13,7 +13,7 @@
         "illuminate/config": "4.1.x",
         "illuminate/console": "4.1.x",           
         "illuminate/filesystem": "4.1.x", 
-        "jasonlewis/resource-watcher": "dev-master"    
+        "lukaswhite/resource-watcher": "*"    
     },
     "autoload": {
         "psr-0": {
